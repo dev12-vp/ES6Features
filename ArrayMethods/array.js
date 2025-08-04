@@ -66,5 +66,5 @@ console.log(number.indexOf(34));
 console.log(number.some((a) => a % 2 === 0))
 
 let checkSome = number.concat(1)
-console.log(checkSome.every((a) => a % 2 === 0))
+// console.log(checkSome.every((a) => a % 2 === 0))
 

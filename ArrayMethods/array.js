@@ -68,3 +68,31 @@ console.log(number.some((a) => a % 2 === 0))
 let checkSome = number.concat(1)
 // console.log(checkSome.every((a) => a % 2 === 0))
 
+// 11. entries
+
+let num = number.entries();
+
+for(let n of num){
+    console.log(n)
+}
+
+// 12.from
+
+let fromValue = Array.from("vivek");
+console.log('fromValue', fromValue)
+
+let fromValue2 = Array.from("123654789");
+console.log('fromValue2', fromValue2)
+
+//13.findIndex()
+
+
+let array = [10, 20, 30, 110, 60];
+
+
+function finding(e) {
+    return e > 25;
+}
+
+
+console.log(array.findIndex(finding));

@@ -69,3 +69,15 @@ Object.entries(person).forEach(([key,value]) => {
 
 console.log(Object.keys(person))
 console.log(Object.values(person))
+
+// 6.Enhanced Object Literals
+
+function MyPhone(name , model , years){
+return {
+    name ,
+    model ,
+    years ,
+}
+}
+
+console.log(MyPhone("Nothing" , "Nothing 1" , 2021))

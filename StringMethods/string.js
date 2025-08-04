@@ -9,18 +9,29 @@ console.log(str.includes("Vivek"))
 console.log(str.startsWith("My"))
 console.log(str.startsWith("Vivek" , 11))
 
+// 3. endsWith()
+console.log(str.endsWith("devloper"))
+console.log(str.endsWith("name" , 7))
 
-//3.spilt()
+
+//4.spilt()
 
 console.log(str.split(" "))
 console.log(str.split(","))
 
-//4.replace() , replaceAll()
+//5.replace() , replaceAll()
 
 console.log(str.replace("Vivek" , "Lakhani"))
 console.log(str.replaceAll("m" , "A"))
 
-// 5.toLowerCase() , toUpperCase()
+//6.toLowerCase() , toUpperCase()
 
 console.log(str.toLowerCase());
 console.log(str.toUpperCase())
+
+
+//7.Multi-Line Str
+
+let MultiStr = `My name is vivek,
+                My age is 25,
+                My nick name VP`
